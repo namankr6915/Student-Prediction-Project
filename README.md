@@ -40,9 +40,3 @@ Student-Prediction-Project/
 ├── train_model.py
 ├── requirements.txt
 └── README.md
-## ▶️ How to Run
-
-### 1. Install the required libraries
-
-```bash
-pip install -r requirements.txt
