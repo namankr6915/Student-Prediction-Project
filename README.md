@@ -1,3 +1,11 @@
+
+You opened a code block with **four backticks** and then placed `How to Run` inside it.
+
+### Fix it exactly like this
+
+Go to **README.md → Edit**, select all the content, and replace it with this:
+
+````markdown
 # Student Prediction Project
 
 ## 📌 Project Overview
@@ -40,11 +48,3 @@ Student-Prediction-Project/
 ├── train_model.py
 ├── requirements.txt
 └── README.md
-## ▶️ How to Run
-
-### 1. Install the required libraries
-
-```bash
-pip install -r requirements.txt
-python train_model.py
-streamlit run app.py
