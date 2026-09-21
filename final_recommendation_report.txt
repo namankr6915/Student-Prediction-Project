@@ -1,0 +1,45 @@
+
+STUDENT PERFORMANCE PREDICTION MODEL
+====================================
+
+Models trained:
+1. Linear Regression
+2. Decision Tree
+3. Random Forest
+4. Tuned Random Forest using GridSearchCV
+
+Cross-validation:
+5-Fold Cross Validation
+
+Evaluation metrics:
+MAE
+RMSE
+R2
+
+Best GridSearch parameters:
+{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}
+
+Model comparison:
+
+              Model      MAE     RMSE       R2  5-Fold CV R2
+  Linear Regression 0.610805 0.742891 0.991125      0.995050
+      Decision Tree 3.250000 3.500000 0.803015      0.901453
+      Random Forest 1.572500 1.847113 0.945136      0.959929
+Tuned Random Forest 1.555000 1.828360 0.946245      0.961314
+
+Feature importance:
+
+assignment_score         0.208962
+previous_score           0.188421
+study_hours              0.173255
+attendance               0.167193
+sleep_hours              0.139490
+extracurricular_hours    0.122680
+
+Final model:
+Tuned Random Forest
+
+The project predicts a student's final academic
+performance using study hours, attendance,
+previous score, assignment score, sleep hours,
+and extracurricular activity.
